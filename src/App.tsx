@@ -229,7 +229,7 @@ export default function App() {
                       Copy to Clipboard
                     </button>
                   </div>
-                  <div className="flex-1 p-6 bg-black border border-neutral-800 rounded-lg shadow-inner overflow-y-auto markdown-body">
+                  <div className="flex-1 p-6 bg-gray-200 border border-neutral-400 rounded-lg shadow-inner overflow-y-auto markdown-body">
                     <ReactMarkdown>{content}</ReactMarkdown>
                   </div>
                 </>
