@@ -13,11 +13,37 @@ export default async function handler(req: any, res: any) {
     });
 
     const prompt = `
-Chapter: ${topic}
-Sub-topic: ${subTopic}
-Concepts: ${conceptTricks}
-Description: ${description}
-`;
+    You are a Senior Banking Quant Content Developer.
+
+    Create a workbook module with the following structure:
+
+    # Chapter: ${topic}
+    ## Sub-topic: ${subTopic}
+
+    Approach Name
+
+    Concept Explanation
+
+    3 Worked Examples
+
+    Quick Observation
+
+    Exam Booster
+
+    10 Practice Questions
+
+    Answer Key
+
+    Challenge Zone
+
+    Concepts:
+    ${conceptTricks}
+
+    Reference Description:
+    ${description}
+
+    Return only clean markdown.
+    `;
 
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash",
