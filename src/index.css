@@ -40,5 +40,67 @@
     -webkit-background-clip: text;
     color: transparent;
     animation: glitter 4s linear infinite;
+}.markdown-body {
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-body p,
+.markdown-body li {
+  color: #d1d5db;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 1.5rem;
+}
+
+.markdown-body pre {
+  background: #1f2937;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.markdown-body code {
+  background: #111827;
+  color: #60a5fa;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.markdown-body blockquote {
+  background: #111827;
+  color: #ffffff;
+  border-left: 4px solid #3b82f6;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #374151;
+  padding: 8px;
+}
+
+.markdown-body th {
+  background: #1f2937;
 }
 
