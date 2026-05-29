@@ -1,0 +1,6 @@
+{
+  "name": "Speed Math Workbook Designer",
+  "description": "Generate structured, book-ready content for speed arithmetic workbook modules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

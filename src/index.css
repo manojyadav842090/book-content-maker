@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@keyframes shine {
+  0% { transform: skewX(-45deg) translateX(-100%); }
+  100% { transform: skewX(-45deg) translateX(100%); }
+}
+
+.glitter-image-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.glitter-image-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
+  animation: shine 3s infinite;
+  pointer-events: none;
+}
+
+@keyframes glitter {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+.text-glitter {
+    background: linear-gradient(90deg, #FFFFFF, #3B82F6, #1E3A8A, #FFFFFF);
+    background-size: 300% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: glitter 4s linear infinite;
+}
+
