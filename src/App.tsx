@@ -71,6 +71,8 @@ export default function App() {
         body: JSON.stringify({ topic, subTopic, conceptTricks, description: descriptionContent }),
       });
       const data = await response.json();
+      console.log("Status:", response.status);
+      console.log("Response:", data);
       setContent(data.content);
       const newItem: ContentItem = {
         id: Date.now().toString(),
