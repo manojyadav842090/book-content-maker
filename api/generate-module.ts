@@ -19,13 +19,11 @@ Generate workbook content in EXACTLY the following structure:
 
 1. Type Name
 2. Approach Name
-3. Visual Explanation
-5. Worked Examples (minimum 2)
-6. Quick Observation Section
-7. Practice Set (keep 50 questions)
-9. anskey keey in tabular form (contains only questions
-10. Challenge Zone (minimum 2 exam-level questions)
-11. Teacher's Guidance for each challenge question
+3. Visual Explanation (keep it in simple language and short and simple, easy to understand)
+5. Worked Examples (only 1)
+6. Quick Observation Section (keep it in simple language and short and simple, easy to understand)
+7. Practice Set (keep 50 questions also number them)
+9. anskey keey (only answer)
 
 Writing Rules:
 
