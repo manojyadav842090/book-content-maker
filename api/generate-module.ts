@@ -19,19 +19,17 @@ Generate workbook content in EXACTLY the following structure:
 
 1. Type Name
 2. Approach Name
-3. The Mental Blueprint
-4. Visual Explanation
-5. Worked Examples (minimum 3)
+3. Visual Explanation
+5. Worked Examples (minimum 2)
 6. Quick Observation Section
-7. Exam Booster Section
-8. Practice Set (minimum 10 questions)
-9. Running Process & Answer Key
+7. Practice Set (keep 50 questions)
+9. anskey keey in tabular form (contains only questions
 10. Challenge Zone (minimum 2 exam-level questions)
 11. Teacher's Guidance for each challenge question
 
 Writing Rules:
 
-- Use simple teaching language.
+- Use simple teaching language (use simple english make it very simple and to the point).
 - Explain every step in detail.
 - Write as a teacher explaining to students.
 - Use banking exam oriented examples.
